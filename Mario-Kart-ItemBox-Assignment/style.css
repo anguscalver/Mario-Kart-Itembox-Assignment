@@ -1,0 +1,19 @@
+/* Style Sheet */
+
+body {
+    background: url('media/mario-kart-racing.jpg') center no-repeat;
+    background-size: 1900px
+}
+
+p, h1 {
+    color: white;
+    font-size: 21px
+}
+
+#results img {
+    width: 50px;
+}
+
+#runuseramount {
+    width: 100px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Mario Kart Item Box Simulator</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+ <div class="main">
+<h1> Mario Kart Item Box Simulator</h1>
+<!-- Instructions -->
+<p>Click the image of the Mario Kart item box to simulate reciving a kart powerup. 
+There are 5 possible items a Banana, Green Shell, Star, Golden Mushroom, and a Bullet Bill</p>
+
+<img id="mario-kart-itembox" src="media/mario-kart-item-box.png">
+<p> <button id="plus5">Plus 5</button> <button id="until10Bulletbill">Until 10 bullet bills</button><input type="number" id="runuseramount">  <button id="user-input-btn">run desired amount</button> </p>
+<p>
+<strong> TOTALS -> </strong>
+Banana <span id = "banana">0</span>|
+Green Shell <span id="green-shell">0</span>|
+Star <span id="star">0</span>|
+Golden Mushroom <span id="golden-mushroom">0</span>|
+Bullet Bill <span id="bullet-bill">0</span>|
+</p>
+<hr>
+
+<p id="results"></p>
+
+</div>   
+<!-- LOAD JAVASCRIPT -->
+<script src="main.js"></script>
+</body>
+
+</html>
